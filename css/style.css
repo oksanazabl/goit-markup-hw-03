@@ -1,0 +1,246 @@
+:root {
+  /*baclgraund color*/
+  --b-dark: #2f303a;
+  --b-middle: #f5f4fa;
+  --b-blue: #2196f3;
+  /*text color*/
+  --txt-dark: #212121;
+  --txt-grey: #757575;
+  --txt-light: #ffffff;
+  --txt-bleu: #2196f3;
+  /*fonts*/
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+}
+
+/*=========== Common ===========*/
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--txt-grey);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-style: normal;
+  list-style: none;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.btn {
+  background-color: var(--b-blue);
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+}
+
+/*=========== END Common ===========*/
+
+/*=========== header ===========*/
+
+.logo {
+  font-family: var(--secondary-font);
+  color: var(--txt-bleu);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-dark {
+  color: var(--txt-dark);
+}
+
+.link {
+  color: var(--txt-dark);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.accent {
+  color: var(--txt-bleu);
+}
+
+.link:hover {
+  color: var(--txt-bleu);
+}
+
+.address {
+  color: var(--txt-grey);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.address:hover {
+  color: var(--txt-bleu);
+}
+/*=========== END header ===========*/
+
+/*=========== footer ===========*/
+
+.footer {
+  background-color: var(--b-dark);
+  height: 252px;
+}
+
+.logo-white {
+  color: var(--txt-light);
+}
+
+.footer-addres {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.link-addres {
+  color: var(--txt-light);
+}
+
+.link-addres:hover {
+  color: var(--txt-bleu);
+}
+
+.link-contact {
+  color: var(--txt-grey);
+}
+
+.link-contact:hover {
+  color: var(--txt-bleu);
+}
+/*=========== END footer ===========*/
+
+/*index page*/
+
+/*=========== Hero ===========*/
+
+.hero {
+  background-color: var(--b-dark);
+  height: 600px;
+}
+
+.main-title {
+  color: var(--txt-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+}
+
+.btn-hero {
+  color: var(--txt-light);
+  width: 200px;
+  height: 50px;
+}
+
+.btn-hero:hover {
+  color: var(--txt-dark);
+}
+/*=========== END hero ===========*/
+
+/*=========== about ===========*/
+.secodary-title {
+  color: var(--txt-dark);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.description-title {
+  color: var(--txt-dark);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.principle {
+  width: 270px;
+  height: 101px;
+}
+
+.team {
+  background-color: var(--b-middle);
+}
+
+.worker-name {
+  color: var(--txt-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.speciality {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/*=========== END about ===========*/
+
+/*portfolio page*/
+.btn-portfolio {
+  background-color: var(--b-middle);
+  color: var(--txt-dark);
+}
+
+.btn-portfolio:hover {
+  background-color: var(--b-blue);
+  color: var(--txt-light);
+}
+
+.portfolio-title {
+  color: var(--txt-dark);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
