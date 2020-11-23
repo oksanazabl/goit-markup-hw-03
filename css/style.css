@@ -83,7 +83,8 @@ ul {
   color: var(--txt-bleu);
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--txt-bleu);
 }
 
@@ -96,7 +97,8 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.address:hover {
+.address:hover,
+.address:focus {
   color: var(--txt-bleu);
 }
 /*=========== END header ===========*/
@@ -123,7 +125,8 @@ ul {
   color: var(--txt-light);
 }
 
-.link-addres:hover {
+.link-addres:hover,
+.link-addres:focus {
   color: var(--txt-bleu);
 }
 
@@ -131,7 +134,8 @@ ul {
   color: var(--txt-grey);
 }
 
-.link-contact:hover {
+.link-contact:hover,
+.link-contact:focus {
   color: var(--txt-bleu);
 }
 /*=========== END footer ===========*/
@@ -163,7 +167,8 @@ ul {
   height: 50px;
 }
 
-.btn-hero:hover {
+.btn-hero:hover,
+.btn-hero:focus {
   color: var(--txt-dark);
 }
 /*=========== END hero ===========*/
@@ -225,7 +230,8 @@ ul {
   color: var(--txt-dark);
 }
 
-.btn-portfolio:hover {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
   background-color: var(--b-blue);
   color: var(--txt-light);
 }
