@@ -15,6 +15,12 @@
 
 /*=========== Common ===========*/
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--main-font);
   font-style: normal;
@@ -57,6 +63,10 @@ ul {
 
 /*=========== header ===========*/
 
+a .nav {
+  display: inline-block;
+}
+
 .logo {
   font-family: var(--secondary-font);
   color: var(--txt-bleu);
@@ -65,6 +75,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  outline: 2px solid tomato;
 }
 
 .logo-dark {
@@ -77,6 +88,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 2px solid tomato;
 }
 
 .accent {
@@ -94,6 +106,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 2px solid tomato;
 }
 
 .address:hover {
@@ -121,6 +134,7 @@ ul {
 
 .link-addres {
   color: var(--txt-light);
+  outline: 2px solid tomato;
 }
 
 .link-addres:hover {
@@ -129,6 +143,7 @@ ul {
 
 .link-contact {
   color: rgba(255, 255, 255, 0.6);
+  outline: 2px solid tomato;
 }
 
 .link-contact:hover {
@@ -154,7 +169,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  height: 120px;
+  outline: 2px solid tomato;
 }
 
 .btn-hero {
@@ -176,6 +191,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  outline: 2px solid tomato;
 }
 
 .description-title {
@@ -196,11 +212,21 @@ ul {
 
 .principle {
   width: 270px;
-  height: 101px;
+  outline: 2px solid tomato;
+}
+
+.item-box {
+  width: 1170px;
+  outline: 2px solid tomato;
 }
 
 .team {
   background-color: var(--b-middle);
+}
+
+.team-card {
+  width: 270px;
+  outline: 2px solid tomato;
 }
 
 .worker-name {
@@ -229,6 +255,11 @@ ul {
 .btn-portfolio:hover {
   background-color: var(--b-blue);
   color: var(--txt-light);
+}
+
+.portfolio-card {
+  width: 370px;
+  outline: 2px solid tomato;
 }
 
 .portfolio-title {
