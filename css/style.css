@@ -56,24 +56,7 @@ ul {
 /*=========== END Common ===========*/
 
 /*=========== header ===========*/
-.head {
-  height: 80px;
-  display: flex;
-  flex-direction: row;
-}
 
-.nav {
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-items {
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 32px 0 32px 93px;
-}
 .logo {
   font-family: var(--secondary-font);
   color: var(--txt-bleu);
@@ -82,7 +65,6 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  padding: 24px 0 25px 215px;
 }
 
 .logo-dark {
@@ -101,8 +83,7 @@ ul {
   color: var(--txt-bleu);
 }
 
-.link:hover,
-.link:focus {
+.link:hover {
   color: var(--txt-bleu);
 }
 
@@ -115,8 +96,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.address:hover,
-.address:focus {
+.address:hover {
   color: var(--txt-bleu);
 }
 /*=========== END header ===========*/
@@ -143,17 +123,15 @@ ul {
   color: var(--txt-light);
 }
 
-.link-addres:hover,
-.link-addres:focus {
+.link-addres:hover {
   color: var(--txt-bleu);
 }
 
 .link-contact {
-  color: var(--txt-grey);
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.link-contact:hover,
-.link-contact:focus {
+.link-contact:hover {
   color: var(--txt-bleu);
 }
 /*=========== END footer ===========*/
@@ -177,19 +155,15 @@ ul {
   text-transform: uppercase;
   width: 696px;
   height: 120px;
-  padding: 205px 452px 30px 452px;
-  margin: 0;
 }
 
 .btn-hero {
   color: var(--txt-light);
   width: 200px;
   height: 50px;
-  margin: 0 700px 193px 700px;
 }
 
-.btn-hero:hover,
-.btn-hero:focus {
+.btn-hero:hover {
   color: var(--txt-dark);
 }
 /*=========== END hero ===========*/
@@ -211,7 +185,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 0 0 10px 0;
 }
 
 .description {
@@ -219,36 +192,15 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin: 0;
 }
 
 .principle {
-  display: flex;
-  justify-content: space-between;
-  padding: 94px 215px;
-  margin: 0;
-}
-
-.principle-item {
   width: 270px;
   height: 101px;
-  display: block;
-  justify-content: flex-start;
-  margin: 0;
 }
 
 .team {
   background-color: var(--b-middle);
-  height: 648px;
-  display: flex;
-  flex-direction: row;
-}
-
-.card {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 50px 215px 94px 215px;
 }
 
 .worker-name {
@@ -257,7 +209,6 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .speciality {
@@ -265,7 +216,6 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 /*=========== END about ===========*/
 
@@ -273,10 +223,10 @@ ul {
 .btn-portfolio {
   background-color: var(--b-middle);
   color: var(--txt-dark);
+  font-weight: 500;
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
+.btn-portfolio:hover {
   background-color: var(--b-blue);
   color: var(--txt-light);
 }
@@ -294,4 +244,5 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--txt-grey);
 }
