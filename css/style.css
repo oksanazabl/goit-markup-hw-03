@@ -62,11 +62,25 @@ ul {
 /*=========== END Common ===========*/
 
 /*=========== header ===========*/
-
-a .nav {
-  display: inline-block;
+.menu {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  margin-left: 215px;
+  margin-right: 215px;
+  outline: 2px solid tomato;
 }
 
+.nav {
+  display: flex;
+}
+/*a .nav {
+  display: inline-block;
+}*/
+.menu-links {
+  display: flex;
+  margin: 32px 0;
+}
 .logo {
   font-family: var(--secondary-font);
   color: var(--txt-bleu);
@@ -75,6 +89,8 @@ a .nav {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  height: 31px;
+  margin: 24px 0 25px 0;
   outline: 2px solid tomato;
 }
 
@@ -88,6 +104,7 @@ a .nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
   outline: 2px solid tomato;
 }
 
@@ -106,6 +123,7 @@ a .nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
   outline: 2px solid tomato;
 }
 
