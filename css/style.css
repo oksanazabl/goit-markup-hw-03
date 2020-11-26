@@ -34,7 +34,6 @@ a {
 ul {
   font-style: normal;
   list-style: none;
-  padding: 0;
 }
 
 .visually-hidden {
@@ -50,13 +49,33 @@ ul {
 
 .btn {
   background-color: var(--b-blue);
-  font-family: Roboto, sans-serif;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: none;
   border-radius: 4px;
+}
+
+.link:hover,
+.link:focus,
+.address:hover,
+.address:focus,
+.accent,
+.link-contact:hover,
+.link-contact:focus,
+.link-addres:focus,
+.link-addres:hover {
+  color: var(--txt-bleu);
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
 }
 
 /*=========== END Common ===========*/
@@ -108,14 +127,6 @@ ul {
   outline: 2px solid tomato;
 }
 
-.accent {
-  color: var(--txt-bleu);
-}
-
-.link:hover {
-  color: var(--txt-bleu);
-}
-
 .address {
   color: var(--txt-grey);
 
@@ -127,9 +138,6 @@ ul {
   outline: 2px solid tomato;
 }
 
-.address:hover {
-  color: var(--txt-bleu);
-}
 /*=========== END header ===========*/
 
 /*=========== footer ===========*/
@@ -155,18 +163,11 @@ ul {
   outline: 2px solid tomato;
 }
 
-.link-addres:hover {
-  color: var(--txt-bleu);
-}
-
 .link-contact {
   color: rgba(255, 255, 255, 0.6);
   outline: 2px solid tomato;
 }
 
-.link-contact:hover {
-  color: var(--txt-bleu);
-}
 /*=========== END footer ===========*/
 
 /*index page*/
@@ -176,6 +177,8 @@ ul {
 .hero {
   background-color: var(--b-dark);
   height: 600px;
+  padding-top: 207px;
+  padding-bottom: 193px;
 }
 
 .main-title {
@@ -187,6 +190,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
+  margin: 0 452px;
   outline: 2px solid tomato;
 }
 
@@ -194,6 +198,7 @@ ul {
   color: var(--txt-light);
   width: 200px;
   height: 50px;
+  margin: 30px 700px 0 700px;
 }
 
 .btn-hero:hover {
