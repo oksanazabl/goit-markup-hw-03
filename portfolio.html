@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/normolize.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+
+
 </head>
 
 <body>
     <!--Шапка страницы-->
     <header class="head">
-        <div class="menu">
+        <div class="container">
             <nav class="nav">
-                <a href="./index.html" lang="en" class="logo">Web<span class="logo-dark">Studio</span></a>
-                <ul>
-                    <li>
-                        <a href="./index.html" class="link accent">Студия</a>
+                <a href="./index.html" lang="en" class="logo link">Web<span class="logo-dark">Studio</span></a>
+                <ul class="menu-links list">
+                    <li class="list">
+                        <a href="./index.html" class="link-items link">Студия</a>
                     </li>
-                    <li>
-                        <a href="./portfolio.html" class="link">Портфолио</a>
+                    <li class="list">
+                        <a href="./portfolio.html" class="link-items link accent">Портфолио</a>
                     </li>
-                    <li>
-                        <a href="#" class="link">Контакты</a>
+                    <li class="list">
+                        <a href="#" class="link-items link">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <address>
-                <ul>
-                    <li>
+                <ul class="menu-links list">
+                    <li class="list">
                         <a href="email:info@devstudio.com" class="address">info@devstudio.com</a>
                     </li>
-                    <li>
+                    <li class="list">
                         <a href="tel:+3800961111111" class="address">+380 096 111 11 11</a>
                     </li>
                 </ul>
@@ -47,7 +50,7 @@
         <!--меню портфолио-->
         <section>
             <h2 class="visually-hidden">Примеры работ</h2>
-            <ul class="filter">
+            <ul class="filter list">
                 <li>
                     <button type="button" class="btn btn-portfolio">Все</button>
                 </li>
@@ -66,9 +69,9 @@
             </ul>
             <h2 class="visually-hidden">Gallery</h2>
 
-            <ul>
+            <ul class="list">
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img1.jpg" alt="Специалисты сайта Технокряк" width="370"
                             height="294">
                         <h3 class="portfolio-title">Технокряк</h3>
@@ -76,7 +79,7 @@
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img2.jpg"
                             alt="Постер с изображением баскетболистов команд New Orlean и Golden Star" width="370"
                             height="294">
@@ -85,49 +88,49 @@
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img3.jpg" alt="Реклама рыбного ресторана" width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Ресторан Seafood</h3>
                         <p class="portfolio-description">Приложение</p>
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img4.jpg" alt="Фото наушников" width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Проект Prime</h3>
                         <p class="portfolio-description">Маркетинг</p>
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img5.jpg" alt="Коробки, упаковки" width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Проект Boxes</h3>
                         <p class="portfolio-description">Приложение</p>
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">>
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img6.jpg" alt="Страница сайта" width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Inspiration has no Borders</h3>
                         <p class="portfolio-description">Веб-сайт</p>
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img7.jpg" alt="Разворот книги" width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Издание Limited Edition</h3>
                         <p class="portfolio-description">Дизайн</p>
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img8.jpg" alt="Брендовая этикетка" width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Проект LAB</h3>
                         <p class="portfolio-description">Маркетинг</p>
                     </a>
                 </li>
                 <li class="portfolio-card">
-                    <a href="#">
+                    <a href="#" class="link">
                         <img src="./images/portfolio/img9.jpg" alt="Человек работает в приложении Growing Business"
                             width="370" height="294">
                         <h3 lang="en" class="portfolio-title">Growing Business</h3>
@@ -138,22 +141,22 @@
         </section>
     </main>
     <footer class="footer">
-        <div>
-            <a href="./index.html" lang="en" class="logo">Web<span class="logo-white">Studio</span></a>
+        <div class="container">
+            <a href="./index.html" lang="en" class="logo link">Web<span class="logo-white">Studio</span></a>
 
 
             <address class="footer-addres">
-                <ul>
+                <ul class="list">
                     <li>
-                        <a href="https://goo.gl/maps/4SZ75eNTT2xGDw7dA" class="link-addres"> г. Киев, пр-т Леси
+                        <a href="https://goo.gl/maps/4SZ75eNTT2xGDw7dA" class="link-addres link"> г. Киев, пр-т Леси
                             Украинки,
                             26</a>
                     </li>
                     <li>
-                        <a href="email:info@devstudio.com" class="link-contact">info@devstudio.com</a>
+                        <a href="email:info@devstudio.com" class="link-contact link">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+3800961111111" class="link-contact">+380 096 111 11 11</a>
+                        <a href="tel:+3800961111111" class="link-contact link">+380 096 111 11 11</a>
                     </li>
                 </ul>
             </address>

@@ -5,38 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>WebStudio</title>
 
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/normolize.css">
-    <title>WebStudio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+
 </head>
 
 <body>
     <!--Шапка страницы-->
     <header class="head">
-        <div class="menu">
+        <div class="container">
             <nav class="nav">
-                <a href="./index.html" lang="en" class="logo">Web<span class="logo-dark">Studio</span></a>
-                <ul class="menu-links">
-                    <li>
-                        <a href="./index.html" class="link accent">Студия</a>
+                <a href="./index.html" lang="en" class="logo link">Web<span class="logo-dark">Studio</span></a>
+                <ul class="menu-links list">
+                    <li class="list">
+                        <a href="./index.html" class="link-items accent link">Студия</a>
                     </li>
-                    <li>
-                        <a href="./portfolio.html" class="link">Портфолио</a>
+                    <li class="list">
+                        <a href="./portfolio.html" class="link-items link">Портфолио</a>
                     </li>
-                    <li>
-                        <a href="#" class="link">Контакты</a>
+                    <li class="list">
+                        <a href="#" class="link-items link">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <address>
-                <ul class="menu-links">
-                    <li>
-                        <a href="email:info@devstudio.com" class="address">info@devstudio.com</a>
+                <ul class="menu-links list">
+                    <li class="list">
+                        <a href="email:info@devstudio.com" class="address link">info@devstudio.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+3800961111111" class="address">+380 096 111 11 11</a>
+                    <li class="list">
+                        <a href="tel:+3800961111111" class="address link">+380 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
@@ -50,43 +52,42 @@
         </section>
         <!--ABOUT-->
         <section class="item-box">
+            <div class="container">
 
-            <h2 class="visually-hidden">Наши принципы</h2>
+                <h2 class="visually-hidden">Наши принципы</h2>
 
-            <ul>
-                <li class="principle">
-                    <h3 class="description-title">Внимание к деталям</h3>
-                    <p class="description">Идейные соображения, а также начало повседневной работы по формированию
-                        позиции.</p>
-                </li>
-                <li class="principle">
-                    <h3 class="description-title">Пунктуальность</h3>
-                    <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет
-                        за собой.</p>
-                </li>
-                <li class="principle">
-                    <h3 class="description-title">Планирование</h3>
-                    <p class="description">Равным образом консультация с широким активом в значительной степени
-                        обуславливает.</p>
-                </li>
-                <li class="principle">
-                    <h3 class="description-title">Современные технологии</h3>
-                    <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых
-                        заданий.</p>
-                </li>
-            </ul>
-
+                <ul class="list">
+                    <li class="principle">
+                        <h3 class="description-title">Внимание к деталям</h3>
+                        <p class="description">Идейные соображения, а также начало повседневной работы по формированию
+                            позиции.</p>
+                    </li>
+                    <li class="principle">
+                        <h3 class="description-title">Пунктуальность</h3>
+                        <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет
+                            за собой.</p>
+                    </li>
+                    <li class="principle">
+                        <h3 class="description-title">Планирование</h3>
+                        <p class="description">Равным образом консультация с широким активом в значительной степени
+                            обуславливает.</p>
+                    </li>
+                    <li class="principle">
+                        <h3 class="description-title">Современные технологии</h3>
+                        <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых
+                            заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <div class="item-box">
+        <section class="item-box">
+            <div class="container">
                 <h2 class="secodary-title">Чем мы занимаемся</h2>
-                <ul>
+                <ul class="list">
                     <li>
-
                         <img src="./images/about/1.jpg" alt="работа с кодом программ" width="370" height="294">
                     </li>
                     <li>
-
                         <img src="./images/about/2.jpg" alt="программы для мобильных устройств" width="370"
                             height="294">
                     </li>
@@ -98,10 +99,10 @@
             </div>
         </section>
         <!--Team-->
-        <section class="team">
-            <div class="item-box">
+        <section class="team item-box">
+            <div class="container">
                 <h2 class="secodary-title">Наша команда</h2>
-                <ul>
+                <ul class="list">
                     <li class="team-card">
                         <img src="./images/team/team_card1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                         <h3 class="worker-name">Игорь Демьяненко</h3>
@@ -126,23 +127,22 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div>
-            <a href="./index.html" lang="en" class="logo">Web<span class="logo-white">Studio</span></a>
+    <footer class="footer ">
+        <div class="container">
+            <a href="./index.html" lang="en" class="logo link">Web<span class="logo-white link">Studio</span></a>
 
 
             <address class="footer-addres">
-                <ul>
+                <ul class="list">
                     <li>
-                        <a href="https://goo.gl/maps/4SZ75eNTT2xGDw7dA" class="link-addres"> г. Киев, пр-т Леси
-                            Украинки,
-                            26</a>
+                        <a href="https://goo.gl/maps/4SZ75eNTT2xGDw7dA" class="link-addres link"> г. Киев, пр-т Леси
+                            Украинки, 26</a>
                     </li>
                     <li>
-                        <a href="email:info@devstudio.com" class="link-contact">info@devstudio.com</a>
+                        <a href="email:info@devstudio.com" class="link-contact link">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+3800961111111" class="link-contact">+380 096 111 11 11</a>
+                        <a href="tel:+3800961111111" class="link-contact link">+380 096 111 11 11</a>
                     </li>
                 </ul>
             </address>

@@ -15,24 +15,37 @@
 
 /*=========== Common ===========*/
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: var(--main-font);
   font-style: normal;
   color: var(--txt-grey);
 }
 
-a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
   text-decoration: none;
 }
 
-ul {
-  font-style: normal;
+.list {
   list-style: none;
 }
 
@@ -58,11 +71,10 @@ ul {
   border-radius: 4px;
 }
 
-.link:hover,
-.link:focus,
+.link-items :hover,
+.link-items :focus,
 .address:hover,
 .address:focus,
-.accent,
 .link-contact:hover,
 .link-contact:focus,
 .link-addres:focus,
@@ -70,35 +82,24 @@ ul {
   color: var(--txt-bleu);
 }
 
-h1,
-h2,
-h3,
-ul,
-p {
-  margin: 0;
-}
-
 /*=========== END Common ===========*/
 
 /*=========== header ===========*/
-.menu {
-  display: flex;
-  height: 80px;
-  align-items: center;
-  margin-left: 215px;
-  margin-right: 215px;
-  outline: 2px solid tomato;
+.head {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
-
+.head .container {
+  display: flex;
+  align-items: center;
+}
 .nav {
   display: flex;
+  align-items: center;
 }
-/*a .nav {
-  display: inline-block;
-}*/
+
 .menu-links {
   display: flex;
-  margin: 32px 0;
 }
 .logo {
   font-family: var(--secondary-font);
@@ -107,9 +108,9 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
+
   height: 31px;
-  margin: 24px 0 25px 0;
+
   outline: 2px solid tomato;
 }
 
@@ -117,7 +118,7 @@ p {
   color: var(--txt-dark);
 }
 
-.link {
+.link-items {
   color: var(--txt-dark);
   font-weight: 500;
   font-size: 14px;
@@ -136,6 +137,10 @@ p {
   letter-spacing: 0.02em;
   display: flex;
   outline: 2px solid tomato;
+}
+
+.accent {
+  color: var(--txt-bleu);
 }
 
 /*=========== END header ===========*/
@@ -176,7 +181,7 @@ p {
 
 .hero {
   background-color: var(--b-dark);
-  height: 600px;
+  min-height: 600px;
   padding-top: 207px;
   padding-bottom: 193px;
 }
@@ -190,15 +195,13 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  margin: 0 452px;
-  outline: 2px solid tomato;
+  margin: 0;
 }
 
 .btn-hero {
   color: var(--txt-light);
-  width: 200px;
-  height: 50px;
-  margin: 30px 700px 0 700px;
+  margin-top: 30px;
+  padding: 10px 32px;
 }
 
 .btn-hero:hover {
@@ -235,14 +238,17 @@ p {
 
 .principle {
   width: 270px;
+
   outline: 2px solid tomato;
 }
 
 .item-box {
-  width: 1170px;
   outline: 2px solid tomato;
 }
-
+.footer .container,
+.item-box .container {
+  padding: 94px 215px;
+}
 .team {
   background-color: var(--b-middle);
 }
