@@ -96,6 +96,7 @@ img {
 .nav {
   display: flex;
   align-items: center;
+  margin-left: 215px;
 }
 
 .menu-links {
@@ -108,10 +109,12 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   height: 31px;
 
   outline: 2px solid tomato;
+}
+.head .logo {
+  margin-right: 93px;
 }
 
 .logo-dark {
@@ -127,16 +130,23 @@ img {
   display: flex;
   outline: 2px solid tomato;
 }
+.nav-listitems:not(:last-child) {
+  margin-right: 50px;
+}
 
 .address {
   color: var(--txt-grey);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  display: flex;
+
   outline: 2px solid tomato;
+}
+
+.head .nav-address {
+  margin-left: auto;
+  margin-right: 215px;
 }
 
 .accent {
@@ -149,14 +159,14 @@ img {
 
 .footer {
   background-color: var(--b-dark);
-  height: 252px;
+  min-height: 252px;
 }
 
 .logo-white {
   color: var(--txt-light);
 }
 
-.footer-addres {
+.footer-address {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -184,6 +194,9 @@ img {
   min-height: 600px;
   padding-top: 207px;
   padding-bottom: 193px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-title {
@@ -242,6 +255,10 @@ img {
   outline: 2px solid tomato;
 }
 
+.works-box {
+  display: flex;
+}
+
 .item-box {
   outline: 2px solid tomato;
 }
@@ -251,6 +268,7 @@ img {
 }
 .team {
   background-color: var(--b-middle);
+  min-height: 648px;
 }
 
 .team-card {
