@@ -39,6 +39,7 @@ li {
 
 img {
   display: block;
+  margin: 0;
 }
 
 .link {
@@ -88,6 +89,7 @@ img {
 .head {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .head .container {
   display: flex;
@@ -171,16 +173,22 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 30px;
 }
 
 .link-addres {
   color: var(--txt-light);
+  margin-bottom: 9px;
   outline: 2px solid tomato;
 }
 
 .link-contact {
   color: rgba(255, 255, 255, 0.6);
   outline: 2px solid tomato;
+}
+
+.link-contact:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /*=========== END footer ===========*/
@@ -247,12 +255,16 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  padding-right: 10px;
 }
 
 .principle {
   width: 270px;
+}
 
-  outline: 2px solid tomato;
+.principle:not(:last-child) {
+  margin-right: 30px;
 }
 
 .works-box {
@@ -262,18 +274,56 @@ img {
 .item-box {
   outline: 2px solid tomato;
 }
+
 .footer .container,
 .item-box .container {
-  padding: 94px 215px;
+  padding: 94px 15px;
+  margin: 0 200px;
 }
+
+.item .container {
+  padding: 0 15px 94px 15px;
+  margin: 0 200px;
+}
+
+.pictures-box {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+
+  outline: 2px solid green;
+  width: 1170px;
+}
+
+.picture:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team {
   background-color: var(--b-middle);
   min-height: 648px;
 }
 
+.card-box {
+  margin-top: 50px;
+  display: flex;
+}
+
+.team-card:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-card {
   width: 270px;
+  height: 368px;
+
   outline: 2px solid tomato;
+}
+
+.worker-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .worker-name {
@@ -282,6 +332,8 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .speciality {
@@ -293,10 +345,26 @@ img {
 /*=========== END about ===========*/
 
 /*portfolio page*/
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio .container {
+  margin: 94px 200px;
+  padding: 0 15px;
+}
+
 .btn-portfolio {
   background-color: var(--b-middle);
   color: var(--txt-dark);
   font-weight: 500;
+  padding: 6px 22px;
 }
 
 .btn-portfolio:hover {
@@ -304,9 +372,20 @@ img {
   color: var(--txt-light);
 }
 
+.work-example {
+  display: flex;
+}
+
 .portfolio-card {
   width: 370px;
+  height: 404px;
   outline: 2px solid tomato;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 24px;
 }
 
 .portfolio-title {
