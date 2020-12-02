@@ -366,6 +366,7 @@ img {
 .btn-portfolio:hover {
   background-color: var(--b-blue);
   color: var(--txt-light);
+  border: none;
 }
 
 .work-example {
@@ -381,7 +382,7 @@ img {
   margin-right: 30px;
   min-height: 404px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+
   box-sizing: border-box;
 }
 
@@ -393,14 +394,21 @@ img {
   margin-bottom: 0;
 }
 
+.card-content {
+  width: 370px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border: 1px solid #eeeeee;
+}
+
 .portfolio-title {
   color: var(--txt-dark);
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-top: 20px;
 }
 
 .portfolio-description {
@@ -409,6 +417,6 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--txt-grey);
-  margin-left: 24px;
+
   margin-top: 4px;
 }
