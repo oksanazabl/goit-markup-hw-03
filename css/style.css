@@ -351,7 +351,8 @@ img {
   width: 1200px;
   margin-top: 94px;
   margin-bottom: 94px;
-
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -372,13 +373,11 @@ img {
 .work-example {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 15px;
-  padding-right: ;
 }
 
 .portfolio-card {
   display: flex;
-  width: 370px;
+  width: culc((100%-60px)/3);
   margin-right: 30px;
   min-height: 404px;
   margin-bottom: 30px;
