@@ -63,7 +63,7 @@ img {
 
 .btn {
   background-color: var(--b-blue);
-  font-family: var(--secondary-font);
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -128,6 +128,7 @@ img {
 
 .link-items {
   color: var(--txt-dark);
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -139,6 +140,8 @@ img {
 }
 
 .address {
+  font-family: var(--main-font);
+  font-style: normal;
   color: var(--txt-grey);
   font-weight: 500;
   font-size: 14px;
@@ -170,6 +173,7 @@ img {
 }
 
 .footer-address {
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -216,6 +220,7 @@ img {
   align-items: center;
 }
 .main-title {
+  font-family: var(--main-font);
   color: var(--txt-light);
   font-weight: 900;
   font-size: 44px;
@@ -241,6 +246,7 @@ img {
 
 /*=========== about ===========*/
 .secodary-title {
+  font-family: var(--main-font);
   color: var(--txt-dark);
   font-weight: bold;
   font-size: 36px;
@@ -270,6 +276,7 @@ img {
 }
 
 .principle {
+  font-family: var(--main-font);
   width: 270px;
 }
 
@@ -282,7 +289,8 @@ img {
 }
 
 .footer .container,
-.item-box .container {
+.item-box .container,
+.item-box-principle .container {
   width: 1200px;
   padding: 0 15px;
   margin-left: auto;
@@ -290,8 +298,16 @@ img {
   align-items: center;
 }
 
+.item-box-principle {
+  padding-top: 94px;
+
+  font-family: var(--main-font);
+}
+
 .item-box {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  font-family: var(--main-font);
 }
 
 .item .container {
@@ -317,6 +333,7 @@ img {
 }
 
 .card-box {
+  font-family: var(--main-font);
   margin-top: 50px;
   display: flex;
 }
@@ -421,9 +438,7 @@ img {
 
 .card-content {
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
 
   border-right-width: 1px;
   border-right-style: solid;
@@ -443,6 +458,7 @@ img {
 
 .portfolio-title {
   color: var(--txt-dark);
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -451,11 +467,11 @@ img {
 }
 
 .portfolio-description {
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--txt-grey);
-
   margin-top: 4px;
 }
