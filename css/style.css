@@ -178,15 +178,17 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .link-addres {
+  font-family: var(--main-font);
   color: var(--txt-light);
   margin-bottom: 9px;
 }
 
 .link-contact {
+  font-family: var(--main-font);
   color: rgba(255, 255, 255, 0.6);
 }
 
