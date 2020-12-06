@@ -128,7 +128,7 @@ img {
 
 .link-items {
   color: var(--txt-dark);
-  font-family: var(--main-font);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -140,7 +140,6 @@ img {
 }
 
 .address {
-  font-family: var(--main-font);
   font-style: normal;
   color: var(--txt-grey);
   font-weight: 500;
@@ -173,7 +172,6 @@ img {
 }
 
 .footer-address {
-  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -182,12 +180,10 @@ img {
 }
 
 .link-addres {
-  font-family: var(--main-font);
   color: var(--txt-light);
 }
 
 .link-contact {
-  font-family: var(--main-font);
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -224,7 +220,6 @@ img {
   align-items: center;
 }
 .main-title {
-  font-family: var(--main-font);
   color: var(--txt-light);
   font-weight: 900;
   font-size: 44px;
@@ -250,7 +245,6 @@ img {
 
 /*=========== about ===========*/
 .secodary-title {
-  font-family: var(--main-font);
   color: var(--txt-dark);
   font-weight: bold;
   font-size: 36px;
@@ -261,7 +255,7 @@ img {
 
 .description-title {
   color: var(--txt-dark);
-  font-family: var(--main-font);
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -270,7 +264,6 @@ img {
 }
 
 .description {
-  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -280,7 +273,6 @@ img {
 }
 
 .principle {
-  font-family: var(--main-font);
   width: 270px;
 }
 
@@ -304,14 +296,11 @@ img {
 
 .item-box-principle {
   padding-top: 94px;
-
-  font-family: var(--main-font);
 }
 
 .item-box {
   padding-top: 94px;
   padding-bottom: 94px;
-  font-family: var(--main-font);
 }
 
 .item .container {
@@ -337,7 +326,6 @@ img {
 }
 
 .card-box {
-  font-family: var(--main-font);
   margin-top: 50px;
   display: flex;
 }
@@ -462,7 +450,7 @@ img {
 
 .portfolio-title {
   color: var(--txt-dark);
-  font-family: var(--main-font);
+
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -471,7 +459,6 @@ img {
 }
 
 .portfolio-description {
-  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
